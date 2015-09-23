@@ -89,3 +89,5 @@ node default {
     target => $boxen::config::repodir
   }
 }
+
+include iterm2::dev
