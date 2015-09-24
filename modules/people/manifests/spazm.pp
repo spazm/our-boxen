@@ -1,7 +1,11 @@
 class people::spazm {
   include zsh # require zsh and change shell
-  include vim # requires vim module in Puppetfile
+  include macvim
 
+  # install brew packages:
+  package { "tmux" : ensure => present }
+
+  # install user dotfiles
   $home     = "/Users/${::boxen_user}"
   $my       = "${home}/my"
   $dotfiles = "${my}/dotfiles"
