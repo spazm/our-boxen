@@ -66,9 +66,11 @@ github "elasticsearch", "2.8.0"
 # github "redis",       "3.1.0"
 # github "sysctl",      "1.0.1"
 
-github "lastpass", "1.0.1" :repo => "dieterdemeyer/puppet-lastpass"
-github "python", "2.0.1"
+# custom modules:
 github "iterm2", "1.2.5"
+github "osx", "1.0.0" # required for zsh to chsh
 github "zsh", "1.0.0"
+github "python", "2.0.1"
 github "macvim", "1.0.0"
-github "vim", "1.0.5"
+github "lastpass", "1.1.0", :repo => "dieterdemeyer/puppet-lastpass"
+github "fonts", "0.0.3"
