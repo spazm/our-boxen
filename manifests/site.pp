@@ -91,3 +91,18 @@ node default {
 }
 
 include iterm2::dev
+include iterm2::colors::arthur
+include iterm2::colors::piperita
+include iterm2::colors::saturn
+include iterm2::colors::solarized_light
+include iterm2::colors::solarized_dark
+include iterm2::colors::zenburn
+
+include lastpass
+include python
+# include vim  # requires python/pip before installation.
+include macvim  # requires full xcode install to brew
+include fonts::adobe
+include fonts::google
+
+include people::spazm
